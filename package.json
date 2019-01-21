@@ -1,0 +1,44 @@
+{
+  "name": "fusebox-babel7issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fuse": "ts-node fuse",
+    "parcel": "parcel ./src/index.parcel.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-flow": "^7.0.0",
+    "@emotion/babel-preset-css-prop": "^10.0.6",
+    "@emotion/core": "^10.0.6",
+    "babel-plugin-module-resolver": "^3.1.2",
+    "emotion": "^10.0.6",
+    "emotion-theming": "^10.0.6",
+    "final-form": "^4.11.0",
+    "lodash": "^4.17.11",
+    "mineral-ui": "^0.55.0",
+    "parcel": "^1.11.0",
+    "polished": "^2.3.3",
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2",
+    "react-emotion": "9",
+    "react-final-form": "^4.0.2",
+    "react-workerdb": "^0.5.0",
+    "worker-loader": "^2.0.0",
+    "workerdb": "^0.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "@types/node": "^10.12.18",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "fs-extra": "^7.0.1",
+    "fuse-box": "^3.7.0-next.13",
+    "ts-node": "^7.0.1",
+    "typescript": "3.2.4"
+  }
+}

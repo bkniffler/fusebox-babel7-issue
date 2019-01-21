@@ -1,0 +1,25 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react",
+    [
+      "@emotion/babel-preset-css-prop",
+      {
+        "autoLabel": true,
+        "labelFormat": "[local]",
+        "useBuiltIns": false,
+        "throwIfNamespace": true
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-inline-environment-variables",
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "___EmotionJSX",
+        "pragmaFrag": "React.Fragment"
+      }
+    ]
+  ]
+}
